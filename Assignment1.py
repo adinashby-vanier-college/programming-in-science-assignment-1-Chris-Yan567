@@ -1,9 +1,9 @@
 # Function 1: Using Python built-in functions
 # This function should take three numbers as input and return their max.
 def built_in_functions_max(num1, num2, num3):
-    # TODO: Implement this function
-    pass  # Replace with your code
-
+    numbers = [num1, num2, num3]
+    max_value = max(numbers)
+    return(max_value)
 # Function 2: Using Python built-in functions
 # This function should take three numbers as input and return their min.
 def built_in_functions_min(num1, num2, num3):
