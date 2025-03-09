@@ -13,8 +13,12 @@ def built_in_functions_min(num1, num2, num3):
 # Function 3: Conditional Statements – The If Statement
 # This function should check if a number is positive, negative, or zero and return the corresponding message.
 def check_number(number):
-    # TODO: Implement this function
-    pass  # Replace with your code
+    if number > 0:
+        return "Positive"
+    elif number < 0:
+        return "Negative"
+    else:
+        return "Zero"
 
 # Function 4: For Loop – Making a Star Shape
 # This function should return a string representing a star shape.
